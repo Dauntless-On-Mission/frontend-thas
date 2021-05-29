@@ -1,0 +1,59 @@
+body{
+    background: linear-gradient(rgb(142, 241, 147), rgb(255, 196, 205), rgb(120, 201, 255)) no-repeat;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h2{
+    width: 78vh;
+    height: 7vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: 50px;
+    padding-left: 72px;
+    padding-top: 19px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    height: 77vh;
+    width: 87vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-left: 50px;
+    /* filter: blur(30px); */
+    /* backdrop-filter: blur(5px); */
+    /* -webkit-backdrop-filter: blur(5px); */
+}
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+    .container{
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+}
+#para{
+    margin-left: 80px; 
+    padding-top: 40px;
+    font-family: 'Pattaya', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.from:hover{
+    background-color: rgba(255, 136, 245, 0.459);
+    height: 60px;
+    width: 20vh;
+}
+.to:hover{
+    background-color: rgba(255, 92, 92, 0.527);
+    height: 100px;
+    width: 25vh;
+}
+.content:hover{
+    background-color: rgba(255, 233, 136, 0.459);
+    height: 100px;
+    width: 70vh;
+}
+
+.end:hover{
+    background-color: rgba(59, 253, 243, 0.459);
+    height: 60px;
+    width: 25vh;
+}
