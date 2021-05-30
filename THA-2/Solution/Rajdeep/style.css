@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: bisque;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+ 
+  background-color: rgb(80, 91, 243);
+  border: 3px rgb(96, 96, 253) solid;
+  border-radius:25px;
+  padding: 8px;
+  color: white;
+  display: inline-block;
+  margin-left:36%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.box1{
+  width: 835px;
+  height: 510px;
+  margin-left:250px ;
+  border: 3px rgb(89, 141, 255) solid;
+  border-radius:15px;
+  background-image: url(https://digitalsynopsis.com/wp-content/uploads/2017/02/beautiful-color-gradients-backgrounds-028-plum-plate.png);
+  background-size: cover;
+  color:white;
+  padding: 20px;
+}
+header{
+  margin-left: 10px;
+}
+content p {
+  margin-top: 30px;
+  margin-left: 10px;
+}
+footer{
+  margin-top: 30px;
+  margin-left: 10px;
+}
