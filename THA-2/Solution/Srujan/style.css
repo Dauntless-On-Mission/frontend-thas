@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.container {
+   text-align: left;
+   padding: 15%;
+   border: 10px solid red;
+   background-color: lightgoldenrodyellow;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.image {
+    height: auto;
+    width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.6;
+}
