@@ -1,0 +1,77 @@
+* {
+  /*base styling*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 100px 80px 100px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+fieldset {
+  border-color: #0052cc;
+  border-style: solid;
+  border-width: 3px;
+}
+legend {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px 0 20px;
+  color: #ff3300;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  /* margin: 20px; */
+}
+
+div.column2 {
+  float: right;
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-left-style: solid;
+  border-left-color: #0052cc;
+}
+
+h3 {
+  text-align: center;
+  color: #ff0066;
+  margin-bottom: 10px;
+}
+
+div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+p,
+ul {
+  padding-left: 20px;
+}
+
+h4,
+strong {
+  color: #ff3300;
+  font-size: large;
+  padding-bottom: 6px;
+}
+
+.sub {
+  color: #ff0066;
+  font-weight: 700;
+}
+.section {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
