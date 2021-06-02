@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(12, 45, 51);
+    margin: 50px;
+    padding: 20px;
+  }
+
+  .container {
+    background-color:  rgb(22, 49, 54);
+    backdrop-filter: blur(5px);
+    padding: 50px;
+    box-shadow: 5px 5px inset white;
+    border-radius: 20px;
+    text-align: center;
+
+  }
+
+  h1 {
+    color: white;
+    position: relative;
+  }
+
+  p {
+    color: rgb(192, 150, 150);
+  }
+
+  a{
+    color: white;
+  }
+
+  address {
+      color: rgb(192, 150, 150);;
+  }
+
+  time {
+    color: rgb(192, 150, 150);
+  }
+
+div {
+    color: rgb(192, 150, 150);
+}
