@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 120vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+span{
+    font-size: 30px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    background-color: white;
+    position: absolute;
+    width: fit-content;
+    padding: 5px;
+    left: 44%;
+    z-index: 1;
+    top: 20px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid blue;
+    margin: 0 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: absolute;
+}
+
+.leftcontainer, .rightcontainer {
+    /* margin-top: 20px; */
+    width: 350px;
+}
+
+.leftcontainer{
+    margin-left: 20px;
+    border-right: 2px solid blue;
+    padding: 0 15px;
+    padding-bottom: 85px;
+}
+
+.rightcontainer{
+    margin-left: 15px;
+    /* border-left: 2px solid blue; */
+    padding: 0 30px;
+    padding-top: 65px;
+}
+
+.profile, .honors, .contact, .intrest{
+    margin-bottom: 20px;
+}
+
+.work1, .work2, .academic1, .academic2{
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 15px;
+}
+
+ul{
+    margin-left: 15px;
+}
