@@ -1,0 +1,91 @@
+
+
+div.container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-top: 10%;
+}
+
+div.outer-circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 550px;
+    width: 550px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid rgb(193, 188, 223);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+div.inner-circle{
+    height: 450px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.needle{
+    /* position: absolute; */
+    /* top: 500px;
+    left: 50%;
+    margin-bottom: 50px; */
+    /* transform: translate(-50%, -50%);
+    padding-top: 200px; */
+}
+
+.neddle > div {
+    height: 4px;
+    width: 220px;
+    margin: -4px;
+}
+
+#hour{
+    height: 5px;
+    margin-top: 220px;
+    margin-left: 5px;
+    animation: hour 43200s infinite steps(60);
+    transform-origin: bottom right;
+    background-color: rgb(255, 47, 47);
+}
+
+@keyframes hour {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#minute{
+    animation: minute 3600s infinite steps(60);
+    transform-origin: bottom right;
+    background-color: rgb(63, 98, 252);
+    margin-left: 5px;
+}
+
+@keyframes minute {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#second{
+    height: 3px;
+    animation: rotate 60s infinite steps(60);
+    transform-origin: bottom right;
+    background-color: rgb(151, 241, 14);
+    margin-left: 5px;
+}
+
+@keyframes rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
