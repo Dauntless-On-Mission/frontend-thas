@@ -1,0 +1,76 @@
+body {
+  background-image: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box {
+  background-color: azure;
+  text-align: center;
+  box-sizing: border-box;
+  outline: auto;
+  margin: 1% 30% auto 30%;
+  padding: 1rem;
+}
+
+.box:hover {
+  box-shadow: -3px 2px 28px 15px rgba(45, 114, 109, 0.48);
+  -webkit-box-shadow: -3px 2px 28px 15px rgba(45, 114, 109, 0.48);
+  -moz-box-shadow: -3px 2px 28px 15px rgba(45, 114, 109, 0.48);
+}
+
+/* Ribbion Refernce */
+/* https://css-tricks.com/snippets/css/ribbon/ */
+
+.ribbon {
+  font-size: 20px !important;
+  width: 40%;
+  position: relative;
+  background: #ba89b6;
+  color: #fff;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 2em auto 3em;
+}
+
+.ribbon:before,
+.ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #986794;
+  z-index: -1;
+}
+
+.ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+}
+
+.ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+}
+
+.ribbon .ribbon-content:before,
+.ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #804f7c transparent transparent transparent;
+  bottom: -1em;
+}
+
+.ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+
+.ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
