@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: seagreen;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("https://images.unsplash.com/photo-1602115175636-1957cf9fa231?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: cursive;
+}
+
+.clock {
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 550px;
+  width: 550px;
+  border-radius: 100%;
+  border: 50px solid #555271;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset,
+    rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  box-sizing: content-box;
+  position: relative;
+}
+
+.center {
+  background-color: #4d4a62;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+
+.L {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.L-12 {
+  top: 11px;
+  left: calc(50% - 25px);
+}
+
+.L-3 {
+  right: 0;
+  top: calc(50% - 25px);
+}
+
+.L-6 {
+  bottom: 11px;
+  left: calc(50% - 25px);
+}
+
+.L-9 {
+  left: 0;
+  top: calc(50% - 25px);
+}
+
+.hand {
+  position: absolute;
+  transform-origin: top center;
+  border-radius: 11px;
+  opacity: 0.75;
+}
+
+.hour {
+  background-color: #f55d61;
+  height: 210px;
+  width: 24px;
+  top: calc(50%);
+  left: calc(50% - 12px);
+  animation: hour 43200s steps(43200) infinite;
+}
+
+@keyframes hour {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.minute {
+  background-color: #61b0fc;
+  height: 250px;
+  width: 16px;
+  top: calc(50%);
+  left: calc(50% - 8px);
+  animation: minute 3600s steps(3600) infinite;
+}
+
+@keyframes minute {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.second {
+  background-color: #61b0fc;
+  height: 250px;
+  width: 8px;
+  top: calc(50%);
+  left: calc(50% - 4px);
+  animation: second 60s steps(60) infinite;
+}
+
+@keyframes second {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
