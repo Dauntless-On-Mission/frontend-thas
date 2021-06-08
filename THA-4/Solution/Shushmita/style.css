@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #004466;
+}
+
+.circle {
+  background-color: red;
+  width: 85vh;
+  height: 85vh;
+  margin: auto;
+  border: 5px solid red;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 0 5px #e2e1e167;
+  /*Shape centered shadow: H-offset|V-offset|Blur|Width|Color*/
+}
+
+.innercircle {
+  background-color: white;
+  width: 70vh;
+  height: 70vh;
+  margin: auto;
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: inset 0 0 5px #000000;
+}
+
+.centerpoint {
+  background-color: black;
+  width: 3vh;
+  height: 3vh;
+  margin: auto;
+  z-index: 4;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hours {
+  background: red;
+  height: 20%;
+  width: 2.5%;
+  border-radius: 12px;
+  z-index: 0;
+  position: absolute;
+  left: 48.86%;
+  top: 30.2%;
+  transform-origin: center bottom;
+}
+
+.minutes {
+  background: black;
+  height: 40%;
+  width: 2%;
+  border-radius: 12px;
+  z-index: 1;
+  position: absolute;
+  left: 49.18%;
+  top: 10.15%;
+  right: 50%;
+  transform-origin: center bottom;
+}
+
+.seconds {
+  background: black;
+  height: 41%;
+  width: 1%;
+  border-radius: 10px;
+  z-index: 2;
+  position: absolute;
+  left: 49.7%;
+  top: 9%;
+  transform-origin: center bottom;
+}
+
+.innercircle .seconds {
+  animation: spin 60s infinite steps(60);
+}
+.innercircle .minutes {
+  animation: spin 3600s linear infinite;
+}
+.innercircle .hours {
+  animation: spin 43200s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
