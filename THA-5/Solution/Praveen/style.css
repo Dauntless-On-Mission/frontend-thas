@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #4B0082;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+}
+
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2px;
+    border-radius: 10px;
+    background-color: #4B0082;
+    height: 80vh;
+    width: 60vh;
+    box-shadow: -3px -3px 10px  rgba(255, 255, 255, 0.712), 3px 3px 20px rgb(0, 0, 0);
+}
+
+input{
+    height: 70px;
+    width: 400px;
+    border: none;
+    background-color: #4B0082;
+    border-radius: 50px;
+    outline: none;
+    color: white;
+    font-size: 25px;
+    padding-left: 20px;
+    box-shadow: -3px -3px 7px white inset, 3px 3px 7px rgb(0, 0, 0) inset;
+}
+
+table{
+    padding-top: 10px;
+}
+
+table button{
+    height: 80px;
+    width: 80px;
+    background-color: #4B0082;
+    border: none;
+    border-radius: 50px;
+    color: #FF00FF;
+    font-size: 25px;
+    margin: 5px;
+    box-shadow: -3px -3px 3px rgba(255, 255, 255, 0.664), 3px 3px 3px black;
+}
+
+.number{
+    color: white;
+}
+.equal{
+    color: rgb(255, 174, 0);
+    color: rgb(0, 255, 42);
+}
+.opert{
+    color: #ff41ff;
+    color: #FFFF00;
+    color: #00FF00;
+    color: #00ffff;
+}
+
+button:hover{
+    box-shadow: -3px -3px 3px rgba(255, 255, 255, 0.651) inset, 3px 3px 3px black inset;
+}
