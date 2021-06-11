@@ -1,0 +1,118 @@
+* {
+    /* border: 1px solid brown; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: auto;
+    background-color: rgb(246, 247, 203);
+    overflow: hidden;
+}
+
+.cal {
+    position: relative;
+    height: 80vh;
+    width: 330px;
+    background-color: rgb(128, 136, 204);
+    margin: 20px auto;
+    top: 50px;
+    border-radius: 15px;
+    -webkit-box-shadow: -13px 0px 13px 0px rgb(149, 153, 153);
+    -moz-box-shadow:    -13px 0px 13px 0px rgb(168, 168, 168);
+    box-shadow:         -13px 0px 13px 0px rgb(126, 125, 125);
+}
+
+.result {
+    height: 15vh;
+}
+.dis {
+    position: absolute;
+    margin: 10px;
+    width: 310px;
+    height: 40px;
+    text-align: right;
+    top: 7px;
+    margin-top: 4px;
+    padding: 5px;
+    font-size: 25px;  
+    color:black;
+    background-color: rgb(209, 220, 253);
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.output {
+    position: absolute;
+    height: 40px;
+    text-align: right;
+    width: 310px;
+    top: 7px;
+    margin: 50px 150px;
+    left: -140px;
+    font-size: 35px;
+    padding: 5px;
+    background-color: rgb(247, 213, 233);
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.keys {
+    height: 60vh;
+}
+.operator , .numb, .empty-1 , .equals , .clear , .last-clear {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.empty {
+    border-width: 0;
+}
+.equals {
+    position: relative;
+    width: 140px;
+    margin-left: 170px;
+    margin-top: -65px;
+    border-radius: 35px;
+}
+
+
+.numb , .empty-1 {
+    background-color: white ;
+}
+.operator:hover, .numb:hover, .empty-1:hover, .equals:hover ,  .clear:hover , .last-clear:hover {
+    background-color: lightgreen;
+} 
+.operator:active, .numb:active , .empty-1:active , .equals:active , .clear:active , .last-clear:active {
+    font-size: 15px;
+}
+button:nth-child(3) {
+    background-color: rgb(190, 150, 243);
+    font-size: 20px;
+}
+
+button:nth-child(4) {
+    background-color: lightyellow;
+    font-size: 20px;
+}
+
+button:nth-child(8) {
+    background-color: lightpink;
+    font-size: 20px;
+}
+button:nth-child(12) {
+    background-color: lightsalmon;
+    font-size: 20px;
+}
+button:nth-child(16) {
+    background-color: lightskyblue;
+    font-size: 20px;
+}
+
