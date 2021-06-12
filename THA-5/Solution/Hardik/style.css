@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 80vh;
+}
+
+.calc {
+  width: 50%;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  padding: 5vh;
+}
+
+form input {
+  width: 100%;
+  margin: 15px 0px;
+  border: none;
+  border-bottom: 1px solid rgb(136, 136, 132);
+  padding: 5px;
+  font-size: 1rem;
+}
+form input:focus {
+  background-color: rgb(245, 244, 243);
+  border: 1px solid transparent;
+}
+::placeholder {
+  color: rgb(116, 110, 110);
+  font-weight: bold;
+}
+.btn-container {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+button {
+  margin: 0px 5px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  padding: 15px 25px;
+}
+
+#add {
+  border: 2px solid gray;
+}
+#add:hover {
+  border: 2px solid white;
+  background-color: grey;
+  color: white;
+}
+#subtract {
+  border: 2px solid rgb(37, 134, 224);
+}
+#subtract:hover {
+  border: 2px solid white;
+  background-color: rgb(37, 134, 224);
+  color: white;
+}
+#multiply {
+  border: 2px solid purple;
+}
+#multiply:hover {
+  border: 2px solid white;
+  background-color: purple;
+  color: white;
+}
+#divide {
+  border: 2px solid rgb(230, 53, 53);
+}
+#divide:hover {
+  border: 2px solid white;
+  background-color: rgb(230, 53, 53);
+  color: white;
+}
