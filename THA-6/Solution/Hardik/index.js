@@ -6,7 +6,7 @@ const array_clone = (array) => {
   return [...array];
 };
 
-const first = (arr, n = arr.length) => {
+const first = (arr, n = 1 ) => {
   return arr.slice(0, n);
 };
 
