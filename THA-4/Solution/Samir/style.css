@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("./Img/bgImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Mate SC", serif;
+}
+
+.center {
+  background-color: #abf1b1;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: calc(50% - 25px);
+  left: calc(50% - 25px);
+}
+
+.common {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  font-size: 2.5rem;
+  color: rgb(243, 69, 69);
+}
+
+.twelve {
+  top: -270px;
+  left: 60px;
+}
+
+.third {
+  left: 300px;
+}
+
+.sixth {
+  bottom: -270px;
+  left: -45px;
+}
+
+.ninth {
+  right: 380px;
+}
+
+.hand {
+  position: absolute;
+  transform-origin: top center;
+  border-radius: 11px;
+  opacity: 0.75;
+}
+
+.hour {
+  background-color: rgb(243, 229, 149);
+  height: 210px;
+  width: 20px;
+  top: calc(50%);
+  left: calc(50% - 12px);
+  animation: hour 43200s steps(43200) infinite;
+}
+
+@keyframes hour {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.minute {
+  background-color: rgb(188, 188, 235);
+  height: 250px;
+  width: 10px;
+  top: calc(50%);
+  left: calc(50% - 8px);
+  animation: minute 3600s steps(3600) infinite;
+}
+
+@keyframes minute {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+
+.second {
+  background-color: rgb(235, 141, 141);
+  height: 250px;
+  width: 5px;
+  top: calc(50%);
+  left: calc(50% - 4px);
+  animation: second 60s steps(60) infinite;
+}
+
+@keyframes second {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
