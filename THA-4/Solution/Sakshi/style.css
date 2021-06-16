@@ -78,7 +78,7 @@
     animation: second-hand 60s infinite steps(60);
   }
   
-  
+
   @keyframes second-hand {
     100% {
       transform: rotate(360deg);
