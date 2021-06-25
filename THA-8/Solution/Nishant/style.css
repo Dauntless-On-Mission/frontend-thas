@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://images.unsplash.com/photo-1515261439133-0f6cfb098e04?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbG9yc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* header{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+} */
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    /* or */
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    height: 400px;
+    width: 400px;
+}
+
+.square{
+    position: relative;
+    background-color: blue;
+    outline: 0.5px solid white;    
+    /* border: 0.5px solid white;     */
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.square:hover{
+    background-color: rgb(126, 126, 221);
+}
+
+.white{
+    background-color: white;
+}
+
+#btn {
+    background-color: black;
+    color: white;
+    border: 3px solid gray;
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color:gray;
+    color: black;
+}
+
+/* .blue{
+    background-color: blue;
+} */
+
+/* #b130, #b131, #b149, #b150, #b151, #b152, #b168, #b169, #b170, #b171, #b172, #b173, #b187, #b188, #b190, #b191, #b193, #b194, #b207, #b208, #b209, #b210, #b211, #b212, #b213, #b214, #b229, #b232, #b248, #b250, #b251, #b253, #b267, #b269, #b272, #b274 {
+    background-color: white;
+} */
+
+
