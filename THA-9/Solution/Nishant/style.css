@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29sb3IlMjBjb21iaW5hdGlvbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    color:brown;
+}
+
+.details{
+    display: flex;
+    font-size: 25px;
+}
+
+#seat_booked, #seat_left{
+    margin: 20px 50px;
+    font-weight: bold;
+    color: black;
+}
+
+#box{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* or */
+    /* display: flex;
+    flex-wrap: wrap; */
+    height: 450px;
+    width: 900px;
+}
+
+.square{
+    position: relative;
+    background-color: rgb(69, 164, 241);
+    outline: 0.5px solid black;    
+    height: 75px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.square:hover{
+    background-color: rgb(160, 201, 136);
+}
+
+.booked{
+    background-color: blue;
+}
