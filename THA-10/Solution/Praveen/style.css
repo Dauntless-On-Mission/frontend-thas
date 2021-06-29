@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./bg.gif);
+  background-size: cover;
+}
+
+#stats h2 {
+  font-size: 20px;
+  border-radius: 222px;
+  background-color: transparent;
+  border: 2px solid white;
+  height: 2em;
+  width: 14em;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: url(./wp2757861.gif);
+  background-repeat: repeat repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards {
+  height: 150px;
+  width: 150px;
+  background-color: burlywood;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+#grid {
+  width: 45%;
+  height: 75%;
+  display: grid;
+  grid-template-rows: repeat(1fr, 4);
+  grid-template-columns: repeat(4, 1fr);
+  /* display: flex;
+    flex-wrap: wrap; */
+  grid-gap: 10px;
+  padding: 25px;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 125px;
+  height: 125px;
+  perspective: 1000px;
+  border-radius: 50%;
+}
+
+.flip-card-inner {
+  background-color: rgb(255, 176, 176);
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.2s;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 20px 1px rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-card-front {
+  background-color: rgba(0, 0, 0, 0.466);
+  color: rgb(255, 255, 255);
+}
+
+.flip-card-back {
+  background-color: rgb(102, 217, 255);
+  color: rgb(255, 255, 255);
+  transform: rotateY(180deg);
+}
+
+.flipped {
+  transform: rotateY(180deg);
+}
