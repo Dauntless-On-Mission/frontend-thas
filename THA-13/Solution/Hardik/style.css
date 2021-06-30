@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #f2c94c;
+  --black: #333333;
+  --width-break: 600px;
+}
+
+body {
+  font-family: "Bebas Neue", cursive;
+  color: black;
+  background-color: rgb(243, 243, 243);
+}
+
+nav {
+  background-color: var(--primary);
+  height: 20vh;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav img {
+  width: 90px;
+  height: 90px;
+  margin: 0px 1em;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+main {
+  max-width: var(--width-break);
+  margin: auto;
+  padding: 1rem;
+  font-size: 1.3rem;
+  font-family: "Kalam", cursive;
+  font-weight: 600;
+}
+
+textarea,
+#output {
+  width: 100%;
+  min-height: 6em;
+  display: block;
+  font-size: inherit;
+  font-family: inherit;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 1rem;
+}
+textarea {
+  margin-top: 0.5rem;
+  border: none;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0;
+  font-size: inherit;
+  font-family: inherit;
+}
+button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#output {
+  overflow: scroll;
+  max-height: 20vh;
+  border: 1px solid rgb(186, 186, 186);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--primary);
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+  padding: 0rem 0.5rem;
+}
