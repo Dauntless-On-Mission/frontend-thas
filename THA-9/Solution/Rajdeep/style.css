@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://i.pinimg.com/originals/b3/b5/59/b3b5591c1ae4ffff437fec0352ca712d.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header{
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.details{
+    display: flex;
+    font-size: 25px;
+}
+
+#seat_booked, #seat_left{
+    margin: 20px 50px;
+    font-weight: bold;
+    color: rgb(207, 250, 17);
+}
+
+#box{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 450px;
+    width: 900px;
+}
+
+.square{
+    position: relative;
+    background-color: rgba(24, 214, 198, 0.849);
+    outline: 0.5px solid rgb(65, 65, 65);    
+    height: 75px;
+    width: 150px;
+    cursor: pointer;
+
+}
+
+.square:hover{
+    background-color: rgb(6, 110, 102);
+}
+
+.booked{
+  
+    background-image: url(https://images.fnlondon.com/im-346681/?width=749&height=499);
+    background-position: center;
+    background-size: contain;
+}
