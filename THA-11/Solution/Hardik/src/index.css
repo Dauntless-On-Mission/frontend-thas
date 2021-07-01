@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.homescreen,
+.quesScreen {
+  width: 100;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-container {
+  max-width: 700px;
+  background-color: #f4b6c2;
+  border-radius: 15px;
+  width: 95%;
+  margin: auto;
+  padding: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.homescreen {
+  background-color: #eee3e7;
+}
+.quesScreen {
+  background-color: #6497b1;
+}
+.heading {
+  font-size: 3rem;
+  margin: 25px;
+  color: rgb(70, 12, 12);
+}
+.btn {
+  border-radius: 5px;
+  font-size: 1.5rem;
+  padding: 0.25em 1em;
+  margin: 5px;
+  border: none;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+.btn:active {
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+.container {
+  max-width: 700px;
+  width: 95%;
+  margin: auto;
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  background-color: rgb(243, 243, 243);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.title {
+  padding: 20px;
+  font-size: 2.5em;
+  color: #011f4b;
+}
+
+.question {
+  background-color: #03396c;
+  padding: 10px;
+  margin: 20px 10px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  transition: 0.2s all;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.answer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.option {
+  background-color: #03396c;
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.option:active {
+  transform: scale(0.95);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.correct {
+  background-color: #7bc043;
+}
+
+.wrong {
+  background-color: #ee4035;
+}
+
+.score {
+  max-width: 6em;
+
+  margin: 30px auto;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  background-color: #03396c;
+  border-radius: 1em;
+  color: white;
+}
