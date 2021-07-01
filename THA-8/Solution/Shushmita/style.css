@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  height: 480px;
+  width: 480px;
+  background-color: lightcyan;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  height: 30px;
+  width: 30px;
+  margin: 1px;
+  background-color: cyan;
+}
+
+.cell:hover {
+  background-color: pink;
+}
+
+.cell-selected {
+  background-color: red;
+}
