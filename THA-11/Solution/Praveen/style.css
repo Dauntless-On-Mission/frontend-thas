@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(255, 173, 218), rgb(72, 228, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    height: 45vh;
+    width: 60vh;
+    background-color: rgb(144, 216, 238);
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 4px rgba(0, 0, 0, 0.568);
+    padding: 30px;
+}
+.container p{
+    font-size: 25px;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+    background-color: tomato;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.5s;
+    font-size: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.568);
+    cursor: pointer;
+}
+#submit{
+    background-color: rgb(1, 204, 1);
+}
+#submit:hover{
+    background-color: transparent;
+}
+.button{
+    display: flex;
+    margin-top: 20px;
+}
+
+ul li{
+    font-size: 1.5em;
+    font-weight: bold;
+    list-style: none;
+    padding: 5px;
+}
+
+ul{
+    margin-top: 3rem;
+    padding: 1rem;
+}
+
+.showScore{
+    margin-top: -3rem;
+    height: 150px;
+    width: 250px;
+    background-color: rgb(255, 197, 149);
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.5s;
+    font-size: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.568);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.restart{
+    height: 50px;
+    width: 110px;
+    margin-top: 1rem;
+    background-color: rgb(255, 2, 2);
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.5s;
+    font-size: 20px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.568);
+    cursor: pointer;
+    padding: 5px;
+}
+
+input[type=radio] {
+    height: 17px;
+    width: 17px;
+    background-color: transparent;
+    background-color: rgb(9, 255, 0);
+    border-radius: 0%;
+    appearance: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input:checked {
+    border: 5px solid rgb(0, 0, 0);
+    /* outline: unset !important  */
+    outline: none;
+    /* I added this one for Edge (chromium) support */
+  }
