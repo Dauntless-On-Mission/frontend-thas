@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 800px;
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board-status {
+  font-size: 2rem;
+  font-family: cursive;
+  background-color: rgba(13, 123, 219, 0.986);
+  width: 500px;
+  margin-bottom: 1rem;
+  padding: 11px;
+  border-radius: 11px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#board {
+  height: 480px;
+  width: 480px;
+  background-color: lightcyan;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cell {
+  height: 30px;
+  width: 30px;
+  margin: 1px;
+  background-color: cyan;
+}
+
+.cell:hover {
+  background-color: pink;
+}
+
+.cell-selected {
+  background-color: red;
+}
