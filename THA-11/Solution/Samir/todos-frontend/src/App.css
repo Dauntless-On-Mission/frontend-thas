@@ -1,0 +1,143 @@
+.App {
+  text-align: center;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+  box-shadow: 0 0 11px 3px rgba(128, 128, 128, 0.5);
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+header .left a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: inherit;
+}
+
+header .bt_signup,
+header .bt_signin,
+header .logout {
+  background-color: rgb(75, 75, 236);
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: inherit;
+  margin-left: 0.5rem;
+}
+
+/* Auth */
+.login {
+  padding: 1rem;
+  padding-top: 5rem;
+}
+
+.login .title {
+  font-size: 2rem;
+}
+
+.login .data {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 3rem auto;
+}
+
+.login input {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.login button {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+/* Todos */
+.todos {
+  padding: 1rem;
+}
+
+.todos .search {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.todos .mark_remove_bts button {
+  margin: 0.3rem;
+}
+
+.todos .data {
+  padding: 1rem;
+}
+
+.todos .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.todos .add {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: rgb(215, 241, 243);
+}
+
+.todos .add input {
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.todos .add button {
+  margin: 0.3rem 0;
+}
+
+.todos .todo {
+  background-color: whitesmoke;
+  margin: 0.5rem auto;
+  padding: 0.7rem;
+  border-radius: 7px;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todos .todo .body {
+  color: gray;
+  font-style: italic;
+}
+
+.todos .todo .time {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 0.3rem;
+}
+
+.todos .todo .edit {
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.todos .todo .delete {
+  padding-left: 1rem;
+  cursor: pointer;
+}
