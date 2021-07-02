@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+ text-align: center;
+ color: white;
+}
+
+.container {
+    height: auto;
+    width: 45%;
+    border: 1px solid black;
+    margin: 20px auto;
+    background-color: lightcyan;
+    border-radius: 40px;
+}
+
+.todoBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px
+}
+
+#btn {
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(144, 230, 230);
+}
+
+#input{
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+.todoItems{
+    display: flex;
+    flex-direction: column;
+    width: 100%;   
+    border: 1px solid black;
+}
+
+
+p {
+  text-align: center;  
+  font-size: 25px;
+  padding: 10px;
+}
+
+input[type=checkbox] {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(2);
+    width: 100%;
+    margin: 10px auto;
+}
+
+.btn1 {
+    border-radius: 40px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);  
+}
+
