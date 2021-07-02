@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container button{
+    height: 40px;
+    width: 170px;
+    background-color: white;
+    box-shadow: 3px 3px 7px black, -3px -3px 7px white;
+    border: none;
+}
+
+.btn{
+    display: flex;
+}
+
+.container button:hover{
+    transform: scale(0.95);
+}
