@@ -1,0 +1,58 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+    height: 100vh;
+    width: auto;
+    background-image: url(https://wallpapercave.com/wp/wp2729921.gif);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+    position: absolute;
+    top: 150px;
+    left: 890px;
+    float:right;
+}
+
+#display{
+    position: absolute;
+    top: 250px;
+    left: 870px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 35%;
+    font-size: 20px;
+    background-image: url(https://i.pinimg.com/originals/33/01/a1/3301a13ac3fcadfba8ccb2d6682e7701.gif);
+}
+
+#display:hover {
+    background-color: rgb(47, 55, 58);
+}
+h1{
+
+    position: absolute;
+    top: 150px;
+    left: 845px;
+    float: left;
+    color:white
+}
+
+.container {
+    position: absolute;
+    height: auto;
+    width: 50vw;
+    padding: 5px;
+    border: 3px solid black;
+}
+
+.container-image {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+    overflow: scroll;
+}
