@@ -1,0 +1,16 @@
+.box{
+    height: 90px;
+    width: 420px;
+    background-color: lightgreen;
+    margin: 10px;
+    padding: 0 8px;
+}
+
+#food{
+    font-size: 35px;
+}
+
+#desc{
+    font-size: 25px;
+}
+
