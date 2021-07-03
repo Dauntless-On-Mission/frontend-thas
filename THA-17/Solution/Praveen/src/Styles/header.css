@@ -1,0 +1,17 @@
+
+#header{
+    color: rgb(255, 164, 53);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.pos{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(91, 64, 209),rgb(0, 19, 59) );
+    /* border: 2px solid black; */
+}
