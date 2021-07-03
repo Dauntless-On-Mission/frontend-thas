@@ -1,0 +1,17 @@
+.cardBase{
+    height: 480px;
+    width: 400px;
+    box-shadow: 3px 5px 6px -2px #000, -6px -7px 6px -2px #ecdede;
+    padding: 1rem;
+}
+
+.cardBase img{
+    height: 380px;
+    width: 380px;
+    background: url(../assets/Untitled-13.png);
+    background-size: cover;
+}
+
+.cardBase h1{
+    margin-top: .5rem;
+}
