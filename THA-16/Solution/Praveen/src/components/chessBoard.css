@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.BoardBase {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: 28px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3px;
+}
+.box{
+    height: 42px;
+    width: 42px;
+     /* margin: 1px; */
+}
+.black{
+    background-color: black;
+    border: white;
+}
+.white{
+    background-color: rgb(255, 255, 255);
+    border: white;
+}
