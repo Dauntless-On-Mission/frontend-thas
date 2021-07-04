@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#board {
+  height: 520px;
+  width: 520px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.board-status {
+  font-size: 2rem;
+  font-family: cursive;
+  width: 500px;
+  margin-bottom: 1rem;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cell {
+  height: 5 0px;
+  width: 50px;
+  margin: 1px;
+  background-color: purple;
+}
+
+.cell:hover {
+  background-color: yellow;
+}
+
+.cell-selected {
+  background-color: rgb(154, 154, 243);
+}
+
