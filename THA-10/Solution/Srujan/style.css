@@ -1,0 +1,12 @@
+.grid{
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 400px; 
+    cursor: pointer;
+ }
+ 
+ h3 {
+    font-size: 30px;
+ }
