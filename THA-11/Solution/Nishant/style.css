@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('https://images.unsplash.com/photo-1622976480033-d7458ff18425?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNvbGlkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start {
+    font-size: 50px;
+    background-color: rgb(43, 255, 0);
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start:hover {
+    background-color: rgb(99, 204, 78);
+}
+
+.box {
+    height: 600px;
+    width: 600px;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0.8;
+
+    background: url('https://images.unsplash.com/photo-1557683311-eac922347aa1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fHNvbGlkfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: none;
+}
+
+.questionNo {
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: white;
+    border-radius: 5px;
+    height: 6%;
+    width: 23%;
+    text-align: center;
+}
+
+.question {
+    height: 15%;
+    width: 90%;
+    border: 2px solid black;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    overflow-y: auto;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeout {
+    height: 40%;
+    width: 90%;
+    display: none;
+}
+
+.option-1, .option-2, .option-3, .option-4 {
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 90%;
+    height: 5%;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    background-color: black;
+}
+
+
+.reset{
+    font-size: 18px;
+    margin: 0 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    border: hidden;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: none;
+}
+
+
+.reset:hover {
+    color: white;
+    background-color: rgb(216, 45, 45);
+}
+
+.score {
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: white;
+    border-radius: 5px;
+    height: 6%;
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+
