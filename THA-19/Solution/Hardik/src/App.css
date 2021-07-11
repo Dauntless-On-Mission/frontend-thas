@@ -1,0 +1,65 @@
+.App {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.container {
+  width: 95%;
+  max-width: 500px;
+  margin: 4rem auto;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  background-color: rgb(214, 221, 214);
+  color: rgb(5, 34, 5);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header {
+  font-size: 1.4rem;
+  margin: 1rem;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter button {
+  width: 3rem;
+  margin: 0.5rem 1rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border: none;
+  background-color: green;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+}
+
+.counter button:active {
+  transform: scale(0.9);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.counter button:disabled {
+  background-color: rgb(85, 129, 85);
+  transform: scale(0.9);
+  cursor: default;
+}
+
+.counter h2 {
+  min-width: 3rem;
+}
