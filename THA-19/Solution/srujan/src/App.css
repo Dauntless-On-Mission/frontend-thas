@@ -1,0 +1,27 @@
+*{
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  margin: 150px;
+ 
+}
+.btn {
+  font-size: 25px;
+  height: 70px;
+  width:150px;
+  padding: 15px;
+  margin-left:10px;
+  background-color: rgb(171, 221, 241);
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.btn:hover{
+  background-color: burlywood;
+}
