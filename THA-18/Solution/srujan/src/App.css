@@ -1,0 +1,30 @@
+.App {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.chessBoard {
+  height: 189px;
+  width: 217px;
+  border: 10px solid brown;
+  display: grid;
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.oddRow,
+.evenRow {
+  display: flex;
+  height: 25px;
+  width: auto;
+  border: 1px solid black;
+}
+.square {
+  height: 25px;
+  width: 25px;
+  border: 1px solid black;
+}
+
+.black {
+  background-color: black;
+}
