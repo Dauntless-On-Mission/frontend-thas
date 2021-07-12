@@ -1,0 +1,44 @@
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background: url('https://scx2.b-cdn.net/gfx/news/hires/2016/howcuttingdo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+  
+.container span {
+    margin-bottom: 10px;
+    background-color:yellowgreen;
+    color: white;
+    padding: 10px;
+    font-size: 35px;
+    border-radius: 8px;
+}
+  
+.box {
+    height: 380px;
+    width: 500px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    background-color: whitesmoke;
+}
+  
+.box::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
+  
+.box::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 7px;
+}
+  
+  
