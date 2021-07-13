@@ -1,0 +1,13 @@
+.chess-board {
+  box-shadow: 0px 0px 1px 15px lightgray;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
