@@ -1,0 +1,27 @@
+.box {
+  background-color: white;
+  margin: 15px 0;
+  border-radius: 7px;
+  box-shadow: 5px 5px 3px lightgray;
+  transition: 0.5s;
+  display: flex;
+  overflow: hidden;
+}
+
+.box:hover {
+  transform: scale(1.01);
+}
+
+.color {
+  height: auto;
+  width: 70px;
+}
+
+.content {
+  padding: 11px;
+}
+
+.content em {
+  color: gray;
+  font-size: 0.9rem;
+}
