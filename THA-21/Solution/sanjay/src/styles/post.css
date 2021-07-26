@@ -1,0 +1,11 @@
+.post {
+  width: 500px;
+  background-color: #eee;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.post input, .post textarea {
+  margin: 11px 0;
+}

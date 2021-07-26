@@ -1,0 +1,12 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input, form button {
+  margin: 1rem 0;
+}
+
+form p {
+  color: red;
+}
