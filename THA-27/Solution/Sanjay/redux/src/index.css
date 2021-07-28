@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+}
+
+/* Components */
+
+input {
+  border: none;
+  border-bottom: 1px solid gray;
+  margin: 5px;
+  outline: none;
+}
+
+button {
+  border-radius: 11px;
+  border: none;
+  margin: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+/* Main */
+
+.main-container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Todos */
+
+.add-todos-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 320px;
+  padding: 15px;
+  margin: 11px;
+  margin-top: 25px;
+  border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.add-todos-container h2 {
+  margin-bottom: 11px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 5px 0;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.todo:hover {
+  background-color: lightgray;
+}
+
+.todo span:nth-child(2) {
+  margin-left: 17px;
+}
